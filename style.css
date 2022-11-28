@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background:rgb(252, 4, 4);
+    width: 100%;
+}
+.header_layout{
+    margin: 0 auto;
+    height: 80px;
+    background: rgba(250, 249, 249, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  
+}
+.header_layout a{
+    color:rgb(219, 145, 145);
+   
+}
+.logo{
+    width:200px;
+}
+
+.logo img{
+    width:100%;
+}
+.menu ul{
+    display: flex;
+    font-family: 'Anton', sans-serif;
+}
+.menu ul li {
+    margin: 0 20px;
+    font-size: 22px;
+}
+.sub_menu ul{
+    display:flex;
+}
+.sub_menu ul li {
+    font-size: 12px;
+    padding: 0 15px;
+    border-right: 1px solid rgb(2, 18, 243);
+}
+.sub_menu ul li:last-child{
+    border:none;
+}
+
+section{
+    background: rgb(249, 252, 250);
+}
+.content{
+    padding: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.content_layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content_box{
+    width: 22%;
+    margin: 10px;
+    padding: 25px 0;
+    cursor: pointer;
+
+}
+.content_box:hover .img_box{
+    transform: scale(1.1);
+}
+.img_box{
+    width: 100%;
+    transition: 0.3s;
+}
+.img_box img{
+    width: 100%;
+    
+
+}
+.title{
+    margin-top: 20px;
+    font-size: 15px;
+    color:rgb(12, 12, 12);
+    font-weight: bold;
+    text-align: center;
+}
+.pay{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color:#efb81b;
+}
+.orgin_pay{
+    font-size: 10px;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: #e5e7eb;
+}
+
+.badge_box{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.badge_box div{
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 12px;
+    font-weight: bold;
+   
+}
+.sale{
+    background: #fe5356;
+    color:#fff;
+}
+.new{
+    background:#efb81b;
+    color:#fff;
+}
+.best{
+    background:#fff;
+    color:#fb4637;
+}
+
+.right_menu{
+    position: fixed;
+    z-index: 10;
+    bottom: 10px;
+    right: 50px;
+}
+.right_menu > div{
+    width: 40px;
+    margin:15px 0;
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+}
+.right_menu div:nth-child(1) div{
+    width: 55px;
+}
+.right_menu div img{
+    width: 100%;;
+}
+.right_menu div p {
+    margin: 7px 0;
+}
+#top{
+    cursor: pointer;
+}
